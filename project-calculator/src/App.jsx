@@ -1,8 +1,12 @@
+import React from "react";
+import Calculator from "./components/Calculator";
 
 function App() {
   return (
     <>
-      <div className="text-xl">App</div>
+      <div className="bg-[#141414] min-h-screen text-white flex items-center justify-center">
+        <Calculator />
+      </div>
     </>
   )
 }
